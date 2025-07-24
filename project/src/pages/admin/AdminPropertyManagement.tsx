@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import AdminLayout from '../../components/admin/AdminLayout';
-import { PropertyService } from '../../services/PropertyService';
+import { PropertyService } from '../../services/propertyService';
 import { Property } from '../../services/api';
 
 const AdminPropertyManagement: React.FC = () => {
