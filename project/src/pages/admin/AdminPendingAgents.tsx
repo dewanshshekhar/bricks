@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import AdminLayout from '../../components/admin/AdminLayout';
-import { AdminService } from '../../services/AdminService';
+import { AdminService } from '../../services/adminService';
 import { Agent } from '../../services/api';
 
 const AdminPendingAgents: React.FC = () => {
