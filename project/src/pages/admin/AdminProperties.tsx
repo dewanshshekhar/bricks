@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AdminLayout from '../../components/admin/AdminLayout';
-import { PropertyService, Property } from '../../services/PropertyService';
+import { PropertyService, Property } from '../../services/propertyService';
 import { Bed, Bath, MapPin, Square, Star } from 'lucide-react';
 
 const AdminProperties = () => {
